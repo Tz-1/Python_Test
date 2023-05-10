@@ -19,28 +19,21 @@ def hacer_grandioso():
             print(granmagos, end=", ")
         else:
             print(granmagos, end=".")
-    return
 
 def imprimir_nombres():
-    print(*nombres, sep=", ", end=".",)
-    return
+    print("------------------------------------\nLista de nombres: ")
+    print(*nombres, sep=", ", end=".")
 
-print("------------------------------------\nLista de nombres: ")
+def imprimir_todos():
+    print("\n------------------------------------\nLista de magos: ")
+    print(*magos,sep=", ", end=".")
+    print("\n------------------------------------\nLista de cientificos: ")
+    print(*cientificos,sep=", ", end=".")
+    print("\n------------------------------------\nLista de otros: ")
+    print(*otros,sep=", ", end=".")
+    print("\n------------------------------------\nLista de grandes magos: ")
+    hacer_grandioso()
+    print("\n------------------------------------")
+
 imprimir_nombres()
-
-print("\n------------------------------------")
-
-print("Lista de magos grandiosos: ")
-hacer_grandioso()
-
-print("\n------------------------------------")
-
-print("Lista de cientificos: ")
-print(*cientificos, sep=", ", end=".")
-
-print("\n------------------------------------")
-
-print("Lista de otros: ")
-print(*otros, sep=", ", end=".")
-
-print("\n------------------------------------")
+imprimir_todos()
