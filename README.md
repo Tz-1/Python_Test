@@ -1,4 +1,4 @@
-###Final Excersice for Introduction to Python
+##Final Excersice for Introduction to Python
 
 A simple Python script that categorizes a list of famous people into three groups:
 - Magicians
